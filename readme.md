@@ -46,21 +46,19 @@ The classification engine relies on a Transfer Learning approach built over a pr
 ###  Training History (Loss & Accuracy Plots)
 The convergence profiles below demonstrate stable training across 5 targeted fine-tuning epochs, capturing optimal performance before hitting diminishing returns or overfitting thresholds:
 
-| Training & Validation Accuracy | Training & Validation Loss |
-| :---: | :---: |
-| ![Accuracy Plot](images/accuracy_plot.png) | ![Loss Plot](images/loss_plot.png) |
+| Training & Validation Accuracy/ Loss |
+| :----------------------------------: | 
+<img width="1165" height="585" alt="graph" src="https://github.com/user-attachments/assets/b1f5b269-f685-499a-aac0-1103c910b7a0" />
 
 
-<p align="center">
-  <img src="images/training_metrics.png" alt="Training Performance History Matrix" width="80%">
-</p>
+###**Confusion Matrix**
+<img width="548" height="455" alt="confusion matrix" src="https://github.com/user-attachments/assets/84c59127-bbf4-4c7b-bd47-b05757ab9a3c" />
+
 
 ###  Training Validation Proof (5-Epoch Execution Log)
 Below is the verified stdout execution trace confirming successful network convergence, loss minimization, and target accuracy verification through the 5 training cycles:
 
-<p align="center">
-  <img src="images/training_proof_screenshot.png" alt="Proof of Model Training Logs over 5 Epochs" width="90%">
-</p>
+<img width="548" height="455" alt="confusion matrix" src="https://github.com/user-attachments/assets/e223a11b-7119-4b30-9208-cefab81b6e35" />
 
 ---
 
@@ -99,6 +97,7 @@ You do **not** need Python, TensorFlow, or OpenCV installed on your system to ru
 3. Launch your command prompt or PowerShell, navigate to the folder, and execute:
    ```bash
    ./DrowsinessDetector.exe
+
 ## References
 
 - [MRL Eye Dataset](http://mrl.cs.vsb.cz/eyedataset)
